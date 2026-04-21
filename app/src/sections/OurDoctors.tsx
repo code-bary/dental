@@ -79,14 +79,6 @@ const OurDoctors = () => {
               </div>
             </div>
 
-            {/* Small Team Image */}
-            <div className={`absolute left-0 bottom-[10%] w-[22vw] h-[22vh] transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-              <img
-                src="/images/doctor-team.jpg"
-                alt="Our dental team"
-                className="w-full h-full rounded-[40px] object-cover shadow-lg"
-              />
-            </div>
           </div>
 
           {/* Mobile Image */}
